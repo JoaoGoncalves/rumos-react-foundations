@@ -42,7 +42,7 @@ Todas as sessões das **18:45 às 21:45**, em **Live Training**.
 |---|---|---|
 | 1 | 6.ª, 27 nov 2026 | Setup, JavaScript moderno e o primeiro componente |
 | 2 | 4.ª, 2 dez 2026 | JSX, componentes, props, renderização condicional, listas e `key` |
-| 3 | 5.ª, 3 dez 2026 | Estado e eventos: `useState`, formulários controlados, lifting state up |
+| 3 | 6.ª, 4 dez 2026 | Estado e eventos: `useState`, formulários controlados, lifting state up |
 | 4 | 4.ª, 9 dez 2026 | Efeitos e dados: `useEffect`, `fetch` à API Spring Boot, loading e erros, CORS |
 | 5 | 6.ª, 11 dez 2026 | Composição e organização: `children`, custom hooks, Context API |
 | 6 | 2.ª, 14 dez 2026 | Routing numa SPA com React Router |
