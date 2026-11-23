@@ -52,7 +52,7 @@ Todas as sessões das **18:45 às 21:45**, em **Live Training**.
 
 ## 3. Antes da 1.ª sessão: instalar
 
-Contem com uns 20 minutos. Se alguma coisa falhar (por exemplo, num portátil da empresa sem permissões de administrador), não se preocupem: resolvemos no início da sessão.
+Contem com uns 20 minutos. **Cheguem à 1.ª sessão com tudo instalado e a funcionar:** no primeiro dia não vai haver tempo para resolver instalações. Se o portátil for da empresa e não tiverem permissões de administrador, peçam com antecedência ao apoio informático da vossa empresa. Se ficarem bloqueados noutro passo, partilhem o erro no fórum da turma: um colega pode já ter resolvido o mesmo problema.
 
 ### 3.1 Node.js (e o npm)
 
