@@ -1,0 +1,21 @@
+{
+  "name": "sessao-01-js-moderno",
+  "private": true,
+  "version": "1.0.0",
+  "description": "React Foundations (Rumos) — Sessão 1: exercícios de JavaScript moderno",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"testes/*.test.js\"",
+    "test:01": "node --test testes/01-modulos.test.js",
+    "test:02": "node --test testes/02-arrow-functions.test.js",
+    "test:03": "node --test testes/03-destructuring.test.js",
+    "test:04": "node --test testes/04-spread-rest.test.js",
+    "test:05": "node --test testes/05-metodos-array.test.js",
+    "test:06": "node --test testes/06-async.test.js",
+    "test:watch": "node --test --watch \"testes/*.test.js\"",
+    "solucoes": "node --test \"testes/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
