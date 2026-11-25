@@ -43,7 +43,7 @@ Todas as sessões das **18:45 às 21:45**, em **Live Training**.
 | 1 | 6.ª, 27 nov 2026 | Setup, JavaScript moderno e o primeiro componente |
 | 2 | 4.ª, 2 dez 2026 | JSX, componentes, props, renderização condicional, listas e `key` |
 | 3 | 6.ª, 4 dez 2026 | Estado e eventos: `useState`, formulários controlados, lifting state up |
-| 4 | 4.ª, 9 dez 2026 | Efeitos e dados: `useEffect`, `fetch` à API Spring Boot, loading e erros, CORS |
+| 4 | 4.ª, 9 dez 2026 | Efeitos e dados: `useEffect`, `fetch` a uma API, loading e erros, CORS |
 | 5 | 6.ª, 11 dez 2026 | Composição e organização: `children`, custom hooks, Context API |
 | 6 | 2.ª, 14 dez 2026 | Routing numa SPA com React Router |
 | 7 | 4.ª, 16 dez 2026 | Avançado: `useReducer`, `useRef`, `useMemo`/`useCallback`, React 19 |
@@ -56,7 +56,7 @@ Contem com uns 20 minutos. **Cheguem à 1.ª sessão com tudo instalado e a func
 
 ### 3.1 Node.js (e o npm)
 
-O Node.js corre JavaScript fora do browser (é para o JavaScript o que a JVM é para o Java). O **npm** vem incluído e é o gestor de dependências (o "Maven" do JavaScript).
+O Node.js corre JavaScript fora do browser (parecido com a JVM, para o Java). O **npm** vem incluído e é o gestor de dependências e de scripts (parecido com o Maven).
 
 - Instalar a versão **LTS** em [nodejs.org](https://nodejs.org) (hoje, o **Node.js 26 LTS**; o 24 LTS também serve; mínimo **22.12**).
 - Quem já usa o **nvm** (macOS/Linux) ou o **nvm-windows**:
@@ -195,4 +195,8 @@ Não é preciso `npm install`: os testes usam o test runner que já vem com o No
 - Vite: https://vite.dev/guide/
 - MDN, o guia de JavaScript (em português): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
 - javascript.info, o tutorial moderno de JavaScript (em inglês): https://javascript.info/
+- HTML e CSS (não fazem parte deste módulo, mas ajudam a ler o JSX; para quem nunca fez):
+  - MDN, Learn web development (HTML e CSS): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core
+  - web.dev, Learn HTML: https://web.dev/learn/html · Learn CSS: https://web.dev/learn/css
+  - freeCodeCamp, Responsive Web Design (interativo): https://www.freecodecamp.org/learn/
 - Git, o livro oficial: https://git-scm.com/book/pt-br/v2
