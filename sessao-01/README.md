@@ -34,7 +34,7 @@ deve mostrar **34 testes: 1 verde e 33 vermelhos**. É suposto: os vermelhos sã
 
 Para cada tema: teoria curta, escrevemos juntos um ficheiro na pasta `js-moderno/juntos/` (criada por vocês) e, no fim de cada bloco, exercícios sozinhos com testes automáticos.
 
-| # | Ficheiro | Tema | Equivalente em Java |
+| # | Ficheiro | Tema | Parecido em Java |
 |---|---|---|---|
 | 01 | `exercicios/01-modulos.js` | `import`/`export`, template literals | packages e `import`, `String.format` |
 | 02 | `exercicios/02-arrow-functions.js` | `const`/`let`, arrow functions, default parameters | lambdas `(x) -> ...` |
@@ -88,3 +88,7 @@ No fim da sessão, entram nesta pasta:
 - React, o guia oficial: https://react.dev/learn
 - Vite: https://vite.dev/guide/
 - MDN, JavaScript (em português): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- HTML e CSS (não fazem parte deste módulo, mas ajudam a ler o JSX; para quem nunca fez):
+  - MDN, Learn web development (HTML e CSS): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core
+  - web.dev, Learn HTML: https://web.dev/learn/html · Learn CSS: https://web.dev/learn/css
+  - freeCodeCamp, Responsive Web Design (interativo): https://www.freecodecamp.org/learn/
