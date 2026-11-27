@@ -1,4 +1,5 @@
 // Exercício 03 — Destructuring de objetos e arrays
+// Correr o ficheiro: node exercicios/03-destructuring.js (com console.log no fim, para ver o resultado)
 // Correr os testes: npm run test:03
 //
 // Não há equivalente direto em Java (o mais parecido são os record patterns).

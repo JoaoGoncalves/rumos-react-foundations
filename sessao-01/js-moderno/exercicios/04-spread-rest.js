@@ -1,4 +1,5 @@
 // Exercício 04 — Spread (...), rest (...) e imutabilidade
+// Correr o ficheiro: node exercicios/04-spread-rest.js (com console.log no fim, para ver o resultado)
 // Correr os testes: npm run test:04
 //
 // Porque é que isto importa em React? O React só percebe que o estado mudou

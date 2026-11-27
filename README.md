@@ -40,8 +40,8 @@ Todas as sessões das **18:45 às 21:45**, em **Live Training**.
 
 | # | Data | Tema (pode ser ajustado) |
 |---|---|---|
-| 1 | 6.ª, 27 nov 2026 | Setup, JavaScript moderno e o primeiro componente |
-| 2 | 4.ª, 2 dez 2026 | JSX, componentes, props, renderização condicional, listas e `key` |
+| 1 | 6.ª, 27 nov 2026 | Setup e JavaScript moderno |
+| 2 | 4.ª, 2 dez 2026 | O primeiro projeto React (Vite): JSX, componentes, props, renderização condicional, listas e `key` |
 | 3 | 6.ª, 4 dez 2026 | Estado e eventos: `useState`, formulários controlados, lifting state up |
 | 4 | 4.ª, 9 dez 2026 | Efeitos e dados: `useEffect`, `fetch` a uma API, loading e erros, CORS |
 | 5 | 6.ª, 11 dez 2026 | Composição e organização: `children`, custom hooks, Context API |
@@ -56,7 +56,7 @@ Contem com uns 20 minutos. **Cheguem à 1.ª sessão com tudo instalado e a func
 
 ### 3.1 Node.js (e o npm)
 
-O Node.js corre JavaScript fora do browser (parecido com a JVM, para o Java). O **npm** vem incluído e é o gestor de dependências e de scripts (parecido com o Maven).
+O Node.js corre JavaScript fora do browser (parecido com a JVM, para o Java). O **npm** vem incluído e é o gestor de dependências e de scripts.
 
 - Instalar a versão **LTS** em [nodejs.org](https://nodejs.org) (hoje, o **Node.js 26 LTS**; o 24 LTS também serve; mínimo **22.12**).
 - Quem já usa o **nvm** (macOS/Linux) ou o **nvm-windows**:
@@ -69,6 +69,7 @@ nvm alias default lts/*      # no nvm-windows: nvm use <versão>
 ### 3.2 Git
 
 - **Windows:** [git-scm.com](https://git-scm.com/download/win) (aceitar as opções por omissão; inclui o Git Bash).
+  **No Windows, usem sempre o Git Bash como terminal**, para os comandos serem iguais aos das aulas (que são em macOS). No VS Code: Terminal › New Terminal e, na seta ao lado do **+**, *Select Default Profile* › *Git Bash*.
 - **macOS:** `xcode-select --install` num terminal, ou `brew install git`.
 - **Linux:** `sudo apt install git` (ou o equivalente da vossa distribuição).
 
@@ -88,7 +89,7 @@ Chrome, Edge ou Firefox, com a extensão **React Developer Tools**.
 
 ### 3.5 Confirmar que está tudo bem
 
-Num terminal:
+Num terminal (no Windows, o Git Bash):
 
 ```bash
 node -v     # v26.x (ou 22.12 ou superior)
@@ -135,7 +136,6 @@ Documents/
   react-trabalho/              ← a vossa pasta: é aqui que escrevem código
     sessao-01/
       js-moderno/
-    biblioteca/                ← o projeto React, criado na sessão 1
 ```
 
 ## 5. Como trabalhamos
@@ -168,10 +168,16 @@ rumos-react-foundations/
   sessao-02/ …
 ```
 
-### Correr os exercícios com testes
+### Correr os exercícios
 
 ```bash
 cd react-trabalho/sessao-01/js-moderno
+node exercicios/02-arrow-functions.js   # corre o ficheiro (com console.log no fim, para verem o resultado)
+```
+
+Os testes (opcional):
+
+```bash
 npm test              # todos os testes
 npm run test:01       # só os do exercício 01
 npm run test:watch    # volta a correr os testes sempre que gravam

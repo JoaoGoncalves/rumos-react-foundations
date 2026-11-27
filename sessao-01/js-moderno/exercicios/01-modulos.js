@@ -1,4 +1,5 @@
 // Exercício 01 — Módulos (import/export) e template literals
+// Correr o ficheiro: node exercicios/01-modulos.js (com console.log no fim, para ver o resultado)
 // Correr os testes: npm run test:01
 //
 // Em Java organizamos código em packages e usamos `import`. Em JavaScript

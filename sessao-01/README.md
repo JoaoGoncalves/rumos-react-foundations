@@ -1,12 +1,13 @@
-# Sessão 1 · Setup, JavaScript moderno e o primeiro componente
+# Sessão 1 · Setup e JavaScript moderno
 
 **React Foundations · Rumos · 6.ª, 27 nov 2026 · 18:45–21:45**
 
 Objetivos da sessão:
 
-1. Ter o ambiente pronto: Node.js, Git, VS Code e um projeto React a correr com Vite.
+1. Ter o ambiente pronto: Node.js, Git, VS Code e a pasta da sessão a funcionar no terminal.
 2. Rever o JavaScript moderno que o React usa em todo o lado.
-3. Escrever e compor os primeiros componentes React.
+
+O React começa na **sessão 2**, com o primeiro projeto (Vite) e os primeiros componentes.
 
 ---
 
@@ -20,19 +21,19 @@ Objetivos da sessão:
 
 ## Parte 1 · O ambiente
 
-Porquê React, as ferramentas (Node.js, npm, Vite) e a pasta da sessão a funcionar. No fim desta parte, dentro de `react-trabalho/sessao-01/js-moderno`:
+Porquê React, as ferramentas (Node.js, npm, Vite) e a pasta da sessão a funcionar. **No Windows, usem o Git Bash** (também no terminal do VS Code), para os comandos serem iguais aos das aulas. No fim desta parte, dentro de `react-trabalho/sessao-01/js-moderno`:
 
 ```bash
-npm test
+pwd          # deve terminar em .../react-trabalho/sessao-01/js-moderno
+ls           # dados  exercicios  package.json  testes
+mkdir juntos
 ```
-
-deve mostrar **34 testes: 1 verde e 33 vermelhos**. É suposto: os vermelhos são os vossos exercícios.
 
 ---
 
 ## Parte 2 · JavaScript moderno — `js-moderno/`
 
-Para cada tema: teoria curta, escrevemos juntos um ficheiro na pasta `js-moderno/juntos/` (criada por vocês) e, no fim de cada bloco, exercícios sozinhos com testes automáticos.
+Para cada tema: teoria curta, escrevemos juntos um ficheiro na pasta `js-moderno/juntos/` (criada por vocês) e, no fim de cada bloco, exercícios sozinhos.
 
 | # | Ficheiro | Tema | Parecido em Java |
 |---|---|---|---|
@@ -42,6 +43,14 @@ Para cada tema: teoria curta, escrevemos juntos um ficheiro na pasta `js-moderno
 | 04 | `exercicios/04-spread-rest.js` | spread/rest e imutabilidade | varargs `int...` |
 | 05 | `exercicios/05-metodos-array.js` | `map`, `filter`, `reduce`, `find`, `toSorted`, `?.`, `??` | Streams, `Optional` |
 | 06 | `exercicios/06-async.js` | Promises, `async`/`await`, `fetch` | `CompletableFuture` |
+
+Para verem o resultado de um exercício, acrescentem `console.log(...)` no fim do ficheiro e corram-no:
+
+```bash
+node exercicios/02-arrow-functions.js
+```
+
+Os testes (opcional):
 
 ```bash
 npm run test:01      # só os testes do exercício 01
@@ -53,33 +62,15 @@ Os exercícios marcados **EXTRA** são para quem acabar mais cedo. Os dados de e
 
 ---
 
-## Parte 3 · O primeiro componente
-
-**Juntos**, na vossa pasta de trabalho (fora de `js-moderno`), criamos o projeto:
-
-```bash
-npm create vite@latest biblioteca -- --template react
-cd biblioteca
-npm install
-npm run dev
-```
-
-e escrevemos os primeiros componentes: `Cabecalho`, `CartaoLivro` e a composição no `App`.
-
-**Sozinhos**, o exercício 1.1 (o cartão do formando) e o desafio 1.2 (um `Rodape`): o enunciado está em [`primeiro-componente-exercicio.md`](primeiro-componente-exercicio.md).
-
----
-
 ## Depois da sessão (`git pull`)
 
 No fim da sessão, entram nesta pasta:
 
 - `js-moderno/juntos/` — o código que escrevemos juntos;
-- `js-moderno/solucoes/` — as soluções dos exercícios 01 a 06 (para confirmar: `npm run solucoes`);
-- `primeiro-componente-solucao/` — o projeto `biblioteca` completo, com as soluções 1.1 e 1.2;
+- `js-moderno/solucoes/` — as soluções dos exercícios 01 a 06, e um `ver-0X.js` por exercício que mostra o resultado (`node solucoes/ver-02.js`; para verem o vosso, mudem o import para `../exercicios/…`);
 - os snippets da sessão (`.md` e `.txt`) e os slides em PDF.
 
-**Para a sessão 2 (4.ª, 2 dez):** acabar os exercícios 01 a 06 (`npm test` todo verde) e o 1.2, ler em react.dev o [“Your First Component”](https://react.dev/learn/your-first-component) e trazer o projeto `biblioteca` a correr.
+**Para a sessão 2 (4.ª, 2 dez):** acabar os exercícios 01 a 06 e comparar com as soluções, e ler em react.dev o [“Your First Component”](https://react.dev/learn/your-first-component). Na sessão 2 criamos juntos o primeiro projeto React.
 
 ---
 

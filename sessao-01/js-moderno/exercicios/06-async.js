@@ -1,4 +1,5 @@
 // Exercício 06 — Promises e async/await
+// Correr o ficheiro: node exercicios/06-async.js (com console.log no fim, para ver o resultado)
 // Correr os testes: npm run test:06
 //
 // Uma Promise é parecida com um CompletableFuture em Java: representa um valor

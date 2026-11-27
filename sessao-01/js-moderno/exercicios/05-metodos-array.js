@@ -1,4 +1,5 @@
 // Exercício 05 — Métodos de array, optional chaining (?.) e nullish coalescing (??)
+// Correr o ficheiro: node exercicios/05-metodos-array.js (com console.log no fim, para ver o resultado)
 // Correr os testes: npm run test:05
 //
 // Se já usaram Streams em Java, isto vai parecer familiar:
