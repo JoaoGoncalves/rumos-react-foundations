@@ -66,13 +66,24 @@ Os exercícios marcados **EXTRA** são para quem acabar mais cedo. Os dados de e
 
 ## Depois da sessão (`git pull`)
 
-No fim da sessão, entram nesta pasta:
+Na sessão de 27 nov chegámos ao **destructuring** (slide 22), com o **rest** (`...outros`) e uma primeira ideia de **spread e imutabilidade**. Já estão nesta pasta:
 
-- `js-moderno/juntos/` — o código que escrevemos juntos;
-- `js-moderno/solucoes/` — as soluções dos exercícios 01 a 06, e um `ver-0X.js` por exercício que mostra o resultado (`node solucoes/ver-02.js`; para verem o vosso, mudem o import para `../exercicios/…`);
-- os snippets da sessão (`.md` e `.txt`) e os slides em PDF.
+- `js-moderno/juntos/` — o código que escrevemos juntos (`01-modulos.js`, `formatar.js`, `02-functions.js`, `03-destructuring.js`) e o `04-spread-rest.js`, o exemplo de spread e rest de que falámos (`node juntos/04-spread-rest.js`);
+- `snippets/sessao-01-snippets-parte1.md` (e `.txt`) — o código da sessão até ao slide 25, incluindo o destructuring completo (nos parâmetros e com valores por defeito) e o spread e rest;
+- `slides/Slides-Sessao-01-parte1.pdf` — os slides 1 a 25 (até aos exercícios 01 a 04);
+- `referencias-javascript-moderno.md` — leituras, o vídeo sobre o event loop e sítios para praticar.
 
-**Para a sessão 2 (4.ª, 2 dez):** acabar os exercícios 01 a 06 e comparar com as soluções, e ler em react.dev o [“Your First Component”](https://react.dev/learn/your-first-component). Na sessão 2 criamos juntos o primeiro projeto React.
+**Para a sessão 2 (4.ª, 2 dez), sozinhos: os exercícios 01 a 04** (slide 25), na vossa pasta `react-trabalho/sessao-01/js-moderno`:
+
+1. Abrir `exercicios/0X-….js` e substituir os `TODO`.
+2. Ver o resultado: `node verificar/ver-01.js` (o 01 já tem o exemplo); para o 02, 03 e 04, criem o vosso `verificar/ver-0X.js` da mesma forma.
+3. Os **EXTRA** são opcionais.
+
+No 04 (spread e imutabilidade), tentem com o slide 23, o `juntos/04-spread-rest.js`, os snippets e os comentários do ficheiro; no `somar` podem usar um ciclo `for...of` (o `reduce` vemos na 4.ª).
+
+**Na 4.ª corrigimos juntos os exercícios 01 a 04** e revemos a imutabilidade; só depois entram aqui as soluções, os snippets e o resto dos slides. Os exercícios 05 e 06 (arrays e async) ficam para depois de vermos esses temas na 4.ª.
+
+Antes da 4.ª, vejam o vídeo do Philip Roberts sobre o event loop (está nas referências): vamos falar dele.
 
 ---
 
@@ -85,3 +96,4 @@ No fim da sessão, entram nesta pasta:
   - MDN, Learn web development (HTML e CSS): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core
   - web.dev, Learn HTML: https://web.dev/learn/html · Learn CSS: https://web.dev/learn/css
   - freeCodeCamp, Responsive Web Design (interativo): https://www.freecodecamp.org/learn/
+- **Mais referências de JavaScript** (leitura obrigatória, o vídeo do event loop, sítios para praticar): [referencias-javascript-moderno.md](referencias-javascript-moderno.md)

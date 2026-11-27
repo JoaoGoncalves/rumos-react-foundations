@@ -201,6 +201,8 @@ Não é preciso `npm install`: os testes usam o test runner que já vem com o No
 - Vite: https://vite.dev/guide/
 - MDN, o guia de JavaScript (em português): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
 - javascript.info, o tutorial moderno de JavaScript (em inglês): https://javascript.info/
+- **Leitura obrigatória** para quem quer dominar JavaScript: *Modern Asynchronous JavaScript*, Faraz K. Kelhini (Pragmatic Bookshelf, 2021): https://pragprog.com/titles/fkajs/modern-asynchronous-javascript/
+- Mais livros, o vídeo sobre o event loop e sítios para praticar: [sessao-01/referencias-javascript-moderno.md](sessao-01/referencias-javascript-moderno.md)
 - HTML e CSS (não fazem parte deste módulo, mas ajudam a ler o JSX; para quem nunca fez):
   - MDN, Learn web development (HTML e CSS): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core
   - web.dev, Learn HTML: https://web.dev/learn/html · Learn CSS: https://web.dev/learn/css
