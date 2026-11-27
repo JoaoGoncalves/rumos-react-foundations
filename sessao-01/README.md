@@ -44,11 +44,13 @@ Para cada tema: teoria curta, escrevemos juntos um ficheiro na pasta `js-moderno
 | 05 | `exercicios/05-metodos-array.js` | `map`, `filter`, `reduce`, `find`, `toSorted`, `?.`, `??` | Streams, `Optional` |
 | 06 | `exercicios/06-async.js` | Promises, `async`/`await`, `fetch` | `CompletableFuture` |
 
-Para verem o resultado de um exercício, acrescentem `console.log(...)` no fim do ficheiro e corram-no:
+Para verem o resultado de um exercício, na pasta `js-moderno`, o exemplo do exercício 01:
 
 ```bash
-node exercicios/02-arrow-functions.js
+node verificar/ver-01.js
 ```
+
+Para os exercícios 02 a 06, criem vocês o `verificar/ver-02.js`, `ver-03.js`, … da mesma forma: importar as funções do exercício e mostrá-las com `console.log`.
 
 Os testes (opcional):
 

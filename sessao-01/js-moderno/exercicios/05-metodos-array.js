@@ -1,6 +1,7 @@
 // Exercício 05 — Métodos de array, optional chaining (?.) e nullish coalescing (??)
-// Correr o ficheiro: node exercicios/05-metodos-array.js (com console.log no fim, para ver o resultado)
-// Correr os testes: npm run test:05
+// VER O RESULTADO — criem o ficheiro verificar/ver-05.js, com a mesma lógica do ver-01.js
+// (importar as funções deste exercício e mostrá-las com console.log). Correr, na pasta js-moderno:
+//   node verificar/ver-05.js
 //
 // Se já usaram Streams em Java, isto vai parecer familiar:
 //   Java: livros.stream().filter(l -> l.isDisponivel()).map(Livro::getTitulo).toList()

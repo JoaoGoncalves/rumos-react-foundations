@@ -1,6 +1,7 @@
 // Exercício 04 — Spread (...), rest (...) e imutabilidade
-// Correr o ficheiro: node exercicios/04-spread-rest.js (com console.log no fim, para ver o resultado)
-// Correr os testes: npm run test:04
+// VER O RESULTADO — criem o ficheiro verificar/ver-04.js, com a mesma lógica do ver-01.js
+// (importar as funções deste exercício e mostrá-las com console.log). Correr, na pasta js-moderno:
+//   node verificar/ver-04.js
 //
 // Porque é que isto importa em React? O React só percebe que o estado mudou
 // se lhe dermos um objeto/array NOVO. Nunca alteramos o original — criamos

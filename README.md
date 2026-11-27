@@ -172,7 +172,7 @@ rumos-react-foundations/
 
 ```bash
 cd react-trabalho/sessao-01/js-moderno
-node exercicios/02-arrow-functions.js   # corre o ficheiro (com console.log no fim, para verem o resultado)
+node verificar/ver-01.js   # o exemplo: mostra o resultado do exercício 01 (os outros, criam vocês)
 ```
 
 Os testes (opcional):

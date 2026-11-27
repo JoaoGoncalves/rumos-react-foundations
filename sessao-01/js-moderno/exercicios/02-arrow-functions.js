@@ -1,6 +1,7 @@
 // Exercício 02 — const/let, arrow functions, default parameters e closures
-// Correr o ficheiro: node exercicios/02-arrow-functions.js (com console.log no fim, para ver o resultado)
-// Correr os testes: npm run test:02
+// VER O RESULTADO — criem o ficheiro verificar/ver-02.js, com a mesma lógica do ver-01.js
+// (importar as funções deste exercício e mostrá-las com console.log). Correr, na pasta js-moderno:
+//   node verificar/ver-02.js
 //
 // Uma arrow function é o equivalente mais próximo de uma lambda em Java:
 //   Java: (n) -> n * 2

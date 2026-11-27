@@ -1,6 +1,7 @@
 // Exercício 03 — Destructuring de objetos e arrays
-// Correr o ficheiro: node exercicios/03-destructuring.js (com console.log no fim, para ver o resultado)
-// Correr os testes: npm run test:03
+// VER O RESULTADO — criem o ficheiro verificar/ver-03.js, com a mesma lógica do ver-01.js
+// (importar as funções deste exercício e mostrá-las com console.log). Correr, na pasta js-moderno:
+//   node verificar/ver-03.js
 //
 // Não há equivalente direto em Java (o mais parecido são os record patterns).
 // Em React vamos usar isto em TODOS os componentes:
